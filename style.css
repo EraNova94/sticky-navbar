@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.4s;
+}
+
+.navbar ul {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar ul li a {
+  color: black;
+  font-family: cursive;
+}
+
+.navbar ul li a:hover {
+  color: red;
+}
+.navbar.active {
+  background-color: black;
+}
+.navbar.active ul li a {
+  color: #fff;
+}
+.top-container {
+  background-image: url("./media/patrick-tomasso-5hvn-2WW6rY-unsplash.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.top-container h1 {
+  color: rgb(38, 85, 253);
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 4px;
+}
+.text {
+  margin: 50px 5%;
+  font-family: sans-serif;
+}
